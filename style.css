@@ -1,0 +1,80 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #2f526a;
+    text-align: center;
+    padding: 20px;
+}
+
+.container {
+    background-color: #0f2c46;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    color: #ffffff;
+}
+
+p {
+    color: #d4c9ba;
+}
+
+.ebook-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* Creates five columns */
+    gap: 20px; /* Spacing between items */
+    max-width: 1200px; /* Maximum width of the grid */
+    margin: auto; /* Center the grid */
+}
+
+.ebook-cover {
+    width: 200px; /* Set the width of the image */
+    height: 300px; /* Set the height of the image */
+    object-fit: cover; /* This will ensure the image covers the area without stretching */
+    border-radius: 5px;
+    transition: transform 0.3s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.ebook-cover:hover {
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
+.ebook-item {
+    text-align: center; /* Center the content */
+    margin-bottom: 20px; /* Spacing between each ebook item */
+}
+
+.ebook-title {
+    margin-top: 10px; /* Spacing between the image and the title */
+    color: #ffffff; /* Title text color */
+    font-size: 1.2em; /* Title font size */
+}
+
+
+a {
+    display: inline-block;
+    background-color: #143d61;
+    color: #ffffff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px;
+
+}
+
+a:hover {
+    background-color: #d4c9ba95;
+}
+
+@media (max-width: 1200px) {
+    .ebook-grid {
+        grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); /* Adjusts to the screen size */
+    }
+
+    .ebook-item {
+        margin-bottom: 20px;
+    }
+}
