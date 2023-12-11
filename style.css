@@ -49,14 +49,14 @@ p {
 
 .ebook-title {
     margin-top: 10px; /* Spacing between the image and the title */
-    color: #2f526a; /* Title text color */
+    color: #DAFFFB; /* Title text color */
     font-size: 1.2em; /* Title font size */
 }
 
 
 a {
     display: inline-block;
-    background-color: #ffffff;
+    background-color: #176B87;
     color: #ffffff;
     padding: 10px 20px;
     text-decoration: none;
