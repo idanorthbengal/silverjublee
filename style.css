@@ -6,7 +6,7 @@ body {
 }
 
 .container {
-    background-color: #0f2c46;
+    background-color: #2f526a;
     border-radius: 10px;
     padding: 20px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -56,7 +56,7 @@ p {
 
 a {
     display: inline-block;
-    background-color: #153c5f;
+    background-color: #0f2c46;
     color: #ffffff;
     padding: 10px 20px;
     text-decoration: none;
