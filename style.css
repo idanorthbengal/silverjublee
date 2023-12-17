@@ -12,6 +12,25 @@ body {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap; /* Ensures responsiveness */
+    gap: 10px; /* Space between elements */
+}
+
+.ida-logo {
+    width: 100px; /* Adjust size as needed */
+    height: auto;
+}
+
+.header h1 {
+    margin: 0 10px; /* Space around the heading */
+    text-align: center;
+    flex-grow: 1;
+}
+
 h1 {
     color: #ffffff;
 }
@@ -76,5 +95,17 @@ a:hover {
 
     .ebook-item {
         margin-bottom: 20px;
+    }
+
+    .ida-logo {
+        width: 100px; /* Smaller logo on mobile */
+    }
+
+    .header {
+        flex-direction: column;
+    }
+
+    .header h1 {
+        margin: 10px 0;
     }
 }
