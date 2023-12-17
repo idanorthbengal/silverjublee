@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", function() {
-    var releaseTime = new Date("2023-12-17T09:40:15").getTime(); // Set the release time
+    var releaseTime = new Date("2023-12-17T11:30:15").getTime(); // Set the release time
     var container = document.getElementById("timed-ebook-container");
 
     var checkTime = setInterval(function() {
